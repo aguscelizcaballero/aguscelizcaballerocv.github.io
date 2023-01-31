@@ -1,0 +1,125 @@
+/*----------------------------------ESTRUCTURA CV----------------------------------------------*/
+.contenedor {
+    /*display: flex;*/
+    display: inline-flex;
+    width: 1200px;
+    margin: 5px;   
+}
+.impresora {
+    width: 1200px;
+    display: block;
+}
+/*---------------------------------------TERMINOS GENERALES-----------------------------------*/
+* {
+    font-size: medium;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: justify;
+}
+h2 {
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    font-size: large;
+}
+ul {
+    list-style: circle;
+    text-align: none;
+}
+a {
+    text-decoration: none;
+    color: #EDC3B9;
+}
+
+
+/*-------------------------------------------------LADO IZQUIERDO----------------------------*/
+.izquierdo {
+    
+    background-color: #7f8287;
+    width: 20%;
+    color:#EDC3B9;
+    padding: 30px;
+    border-right: 20px solid white;  
+}
+
+.imagen {   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+img {
+    border-radius: 50%;
+}
+
+aside h2 {
+    border-bottom: 3px solid white;
+    color: white;
+    text-align: center;
+}
+
+/*---------------------------------------------------LADO DERECHO----------------------------*/
+.derecho {
+    width: 70%;
+}
+.derecho h2 {
+    color: #7F8287;
+    background-color: #EDE2DF;
+    padding: 4px;
+}
+.hero {
+    background-color: #EDE2DF;
+    padding: 5% 0;
+}
+.hero h1 {
+    font-family: 'Aboreto', cursive;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 30px;
+}
+.hero h2 {
+    border-top: 3px solid white;
+    text-align: center;
+    font-size: 20px;
+    letter-spacing: 5px;    
+}
+.experienciaprofesional {
+    width: 100%;
+}
+.derecho article {
+    padding: 5px;
+}
+.article h3 {
+    font-weight: bold;
+}
+.article h4 {
+    font-weight: normal;
+    font-style: italic;
+}
+
+/*---------------------------------------------------PIE DE PAGINAO----------------------------*/
+.footer {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+}
+.impresora {
+    background-color:#EDE2DF;    
+}
+.impresora p {
+    text-align: center;
+    font-weight: bold;
+}
+#imprimir {
+    display: block;
+    width: 10%;
+    height: 30px;
+    margin-left: 500px;
+    cursor: pointer;
+    color:white;
+    font-size: medium;
+    padding: 1px;
+    text-align: center;
+    background-color:black;
+    font-weight: bold;
+    white-space: pre-line;
+}
+
